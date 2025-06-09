@@ -1,0 +1,651 @@
+-- Objects
+
+local ZtraxV3 = Instance.new("ScreenGui")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local DexV2 = Instance.new("TextButton")
+local Topk3k4 = Instance.new("TextButton")
+local BlackCellHub = Instance.new("TextButton")
+local GrabKnife3 = Instance.new("TextButton")
+local ReaperV2 = Instance.new("TextButton")
+local SWORD = Instance.new("TextButton")
+local CoolGui = Instance.new("TextButton")
+local JBGUI = Instance.new("TextButton")
+local MlgWings = Instance.new("TextButton")
+local DankEngine = Instance.new("TextButton")
+local DarkTitan = Instance.new("TextButton")
+local _666Script = Instance.new("TextButton")
+local RainbowTitan = Instance.new("TextButton")
+local WhiteTitan = Instance.new("TextButton")
+local FilterMyA = Instance.new("TextButton")
+local UNANCHORALL = Instance.new("TextButton")
+local AngelWings = Instance.new("TextButton")
+local PLASMA = Instance.new("TextButton")
+local DogeTitan = Instance.new("TextButton")
+local Blue = Instance.new("TextButton")
+local SCROLLGUI = Instance.new("TextButton")
+local DESTRUCTION = Instance.new("TextButton")
+local NIOBIUMGUI = Instance.new("TextButton")
+local MEEPCITYMONEY = Instance.new("TextButton")
+local SunSetCityMONEY = Instance.new("TextButton")
+local PRISIONLIFEGUI = Instance.new("TextButton")
+local VEHICLESIMCASH = Instance.new("TextButton")
+local REDWOODGUI = Instance.new("TextButton")
+local ThePlazaMoney = Instance.new("TextButton")
+local ResturantTycoonMoney = Instance.new("TextButton")
+local MeepCityGamesPasses = Instance.new("TextButton")
+local VAPE = Instance.new("TextButton")
+local Weed = Instance.new("TextButton")
+local VaporGun = Instance.new("TextButton")
+local SNIPER = Instance.new("TextButton")
+local ShotGun = Instance.new("TextButton")
+local DualGuns = Instance.new("TextButton")
+local SCYTHE = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+
+-- Properties
+
+ZtraxV3.Name = "ZtraxV3"
+ZtraxV3.Parent = game.CoreGui
+
+ScrollingFrame.Parent = ZtraxV3
+ScrollingFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+ScrollingFrame.Position = UDim2.new(0, 1198, 0, 201)
+ScrollingFrame.Size = UDim2.new(0, 168, 0, 224)
+
+DexV2.Name = "DexV2"
+DexV2.Parent = ScrollingFrame
+DexV2.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+DexV2.Size = UDim2.new(0, 150, 0, 33)
+DexV2.Font = Enum.Font.SciFi
+DexV2.FontSize = Enum.FontSize.Size28
+DexV2.Text = "Dex V2"
+DexV2.TextColor3 = Color3.new(0.666667, 0, 1)
+DexV2.TextSize = 25
+
+Topk3k4.Name = "Topk3k4"
+Topk3k4.Parent = ScrollingFrame
+Topk3k4.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+Topk3k4.Position = UDim2.new(0, 0, 0, 130)
+Topk3k4.Size = UDim2.new(0, 150, 0, 33)
+Topk3k4.Font = Enum.Font.SciFi
+Topk3k4.FontSize = Enum.FontSize.Size28
+Topk3k4.Text = "TopK3K 4.0"
+Topk3k4.TextColor3 = Color3.new(0.666667, 0, 1)
+Topk3k4.TextSize = 25
+
+BlackCellHub.Name = "BlackCellHub"
+BlackCellHub.Parent = ScrollingFrame
+BlackCellHub.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+BlackCellHub.Position = UDim2.new(0, 0, 0, 96)
+BlackCellHub.Size = UDim2.new(0, 150, 0, 33)
+BlackCellHub.Font = Enum.Font.SciFi
+BlackCellHub.FontSize = Enum.FontSize.Size28
+BlackCellHub.Text = "BlackCell"
+BlackCellHub.TextColor3 = Color3.new(0, 1, 1)
+BlackCellHub.TextSize = 25
+
+GrabKnife3.Name = "GrabKnife3"
+GrabKnife3.Parent = ScrollingFrame
+GrabKnife3.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+GrabKnife3.Position = UDim2.new(0, 0, 0, 64)
+GrabKnife3.Size = UDim2.new(0, 150, 0, 33)
+GrabKnife3.Font = Enum.Font.SciFi
+GrabKnife3.FontSize = Enum.FontSize.Size28
+GrabKnife3.Text = "GrabKnife V3"
+GrabKnife3.TextColor3 = Color3.new(0.666667, 0, 1)
+GrabKnife3.TextSize = 25
+
+ReaperV2.Name = "ReaperV2"
+ReaperV2.Parent = ScrollingFrame
+ReaperV2.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+ReaperV2.Position = UDim2.new(0, 0, 0, 33)
+ReaperV2.Size = UDim2.new(0, 150, 0, 33)
+ReaperV2.Font = Enum.Font.SciFi
+ReaperV2.FontSize = Enum.FontSize.Size28
+ReaperV2.Text = "Reaper V2"
+ReaperV2.TextColor3 = Color3.new(0, 1, 1)
+ReaperV2.TextSize = 25
+
+SWORD.Name = "SWORD"
+SWORD.Parent = ScrollingFrame
+SWORD.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+SWORD.Position = UDim2.new(0, 0, 0, 226)
+SWORD.Size = UDim2.new(0, 150, 0, 33)
+SWORD.Font = Enum.Font.SciFi
+SWORD.FontSize = Enum.FontSize.Size28
+SWORD.Text = "Sword"
+SWORD.TextColor3 = Color3.new(0, 1, 1)
+SWORD.TextSize = 25
+
+CoolGui.Name = "CoolGui"
+CoolGui.Parent = ScrollingFrame
+CoolGui.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+CoolGui.Position = UDim2.new(0, 0, 0, 196)
+CoolGui.Size = UDim2.new(0, 150, 0, 33)
+CoolGui.Font = Enum.Font.SciFi
+CoolGui.FontSize = Enum.FontSize.Size28
+CoolGui.Text = "C00lGui"
+CoolGui.TextColor3 = Color3.new(0.666667, 0, 1)
+CoolGui.TextSize = 25
+
+JBGUI.Name = "JBGUI"
+JBGUI.Parent = ScrollingFrame
+JBGUI.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+JBGUI.Position = UDim2.new(0, 0, 0, 163)
+JBGUI.Size = UDim2.new(0, 150, 0, 33)
+JBGUI.Font = Enum.Font.SciFi
+JBGUI.FontSize = Enum.FontSize.Size28
+JBGUI.Text = "JailBreak Gui"
+JBGUI.TextColor3 = Color3.new(0, 1, 1)
+JBGUI.TextSize = 25
+
+MlgWings.Name = "MlgWings"
+MlgWings.Parent = ScrollingFrame
+MlgWings.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+MlgWings.Position = UDim2.new(0, 0, 0, 259)
+MlgWings.Size = UDim2.new(0, 150, 0, 33)
+MlgWings.Font = Enum.Font.SciFi
+MlgWings.FontSize = Enum.FontSize.Size28
+MlgWings.Text = "Wings"
+MlgWings.TextColor3 = Color3.new(0.666667, 0, 1)
+MlgWings.TextSize = 25
+
+DankEngine.Name = "DankEngine"
+DankEngine.Parent = ScrollingFrame
+DankEngine.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+DankEngine.Position = UDim2.new(0, 0, 0, 292)
+DankEngine.Size = UDim2.new(0, 150, 0, 33)
+DankEngine.Font = Enum.Font.SciFi
+DankEngine.FontSize = Enum.FontSize.Size28
+DankEngine.Text = "Dank Engine"
+DankEngine.TextColor3 = Color3.new(0, 1, 1)
+DankEngine.TextSize = 25
+
+DarkTitan.Name = "DarkTitan"
+DarkTitan.Parent = ScrollingFrame
+DarkTitan.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+DarkTitan.Position = UDim2.new(0, 0, 0, 356)
+DarkTitan.Size = UDim2.new(0, 150, 0, 33)
+DarkTitan.Font = Enum.Font.SciFi
+DarkTitan.FontSize = Enum.FontSize.Size28
+DarkTitan.Text = "Dark Titan"
+DarkTitan.TextColor3 = Color3.new(0, 1, 1)
+DarkTitan.TextSize = 25
+
+_666Script.Name = "666Script"
+_666Script.Parent = ScrollingFrame
+_666Script.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+_666Script.Position = UDim2.new(0, 0, 0, 326)
+_666Script.Size = UDim2.new(0, 150, 0, 33)
+_666Script.Font = Enum.Font.SciFi
+_666Script.FontSize = Enum.FontSize.Size28
+_666Script.Text = "666"
+_666Script.TextColor3 = Color3.new(0.666667, 0, 1)
+_666Script.TextSize = 25
+
+RainbowTitan.Name = "RainbowTitan"
+RainbowTitan.Parent = ScrollingFrame
+RainbowTitan.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+RainbowTitan.Position = UDim2.new(0, 0, 0, 422)
+RainbowTitan.Size = UDim2.new(0, 150, 0, 33)
+RainbowTitan.Font = Enum.Font.SciFi
+RainbowTitan.FontSize = Enum.FontSize.Size28
+RainbowTitan.Text = "Rainbow Titan"
+RainbowTitan.TextColor3 = Color3.new(0, 1, 1)
+RainbowTitan.TextSize = 25
+
+WhiteTitan.Name = "WhiteTitan"
+WhiteTitan.Parent = ScrollingFrame
+WhiteTitan.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+WhiteTitan.Position = UDim2.new(0, 0, 0, 390)
+WhiteTitan.Size = UDim2.new(0, 150, 0, 33)
+WhiteTitan.Font = Enum.Font.SciFi
+WhiteTitan.FontSize = Enum.FontSize.Size28
+WhiteTitan.Text = "White Titan"
+WhiteTitan.TextColor3 = Color3.new(0.666667, 0, 1)
+WhiteTitan.TextSize = 25
+
+FilterMyA.Name = "FilterMyA$$"
+FilterMyA.Parent = ScrollingFrame
+FilterMyA.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+FilterMyA.Position = UDim2.new(0, 0, 0, 453)
+FilterMyA.Size = UDim2.new(0, 150, 0, 33)
+FilterMyA.Font = Enum.Font.SciFi
+FilterMyA.FontSize = Enum.FontSize.Size28
+FilterMyA.Text = "FilterMyAss"
+FilterMyA.TextColor3 = Color3.new(0.666667, 0, 1)
+FilterMyA.TextSize = 25
+
+UNANCHORALL.Name = "UNANCHORALL"
+UNANCHORALL.Parent = ScrollingFrame
+UNANCHORALL.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+UNANCHORALL.Position = UDim2.new(0, 0, 0, 484)
+UNANCHORALL.Size = UDim2.new(0, 150, 0, 33)
+UNANCHORALL.Font = Enum.Font.SciFi
+UNANCHORALL.FontSize = Enum.FontSize.Size28
+UNANCHORALL.Text = "Unanchor All"
+UNANCHORALL.TextColor3 = Color3.new(0, 1, 1)
+UNANCHORALL.TextSize = 25
+
+AngelWings.Name = "AngelWings"
+AngelWings.Parent = ScrollingFrame
+AngelWings.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+AngelWings.Position = UDim2.new(0, 0, 0, 518)
+AngelWings.Size = UDim2.new(0, 150, 0, 33)
+AngelWings.Font = Enum.Font.SciFi
+AngelWings.FontSize = Enum.FontSize.Size28
+AngelWings.Text = "Angel Wings"
+AngelWings.TextColor3 = Color3.new(0.666667, 0, 1)
+AngelWings.TextSize = 25
+
+PLASMA.Name = "PLASMA"
+PLASMA.Parent = ScrollingFrame
+PLASMA.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+PLASMA.Position = UDim2.new(0, 0, 0, 551)
+PLASMA.Size = UDim2.new(0, 150, 0, 33)
+PLASMA.Font = Enum.Font.SciFi
+PLASMA.FontSize = Enum.FontSize.Size28
+PLASMA.Text = "Plasma Gui"
+PLASMA.TextColor3 = Color3.new(0, 1, 1)
+PLASMA.TextSize = 25
+
+DogeTitan.Name = "DogeTitan"
+DogeTitan.Parent = ScrollingFrame
+DogeTitan.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+DogeTitan.Position = UDim2.new(0, 0, 0, 582)
+DogeTitan.Size = UDim2.new(0, 150, 0, 33)
+DogeTitan.Font = Enum.Font.SciFi
+DogeTitan.FontSize = Enum.FontSize.Size28
+DogeTitan.Text = "Doge Titan"
+DogeTitan.TextColor3 = Color3.new(0.666667, 0, 1)
+DogeTitan.TextSize = 25
+
+Blue.Name = "Blue"
+Blue.Parent = ScrollingFrame
+Blue.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+Blue.Position = UDim2.new(0, 0, 0, 616)
+Blue.Size = UDim2.new(0, 150, 0, 33)
+Blue.Font = Enum.Font.SciFi
+Blue.FontSize = Enum.FontSize.Size28
+Blue.Text = "Blue"
+Blue.TextColor3 = Color3.new(0, 1, 1)
+Blue.TextSize = 25
+
+SCROLLGUI.Name = "SCROLLGUI"
+SCROLLGUI.Parent = ScrollingFrame
+SCROLLGUI.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+SCROLLGUI.Position = UDim2.new(0, 0, 0, 648)
+SCROLLGUI.Size = UDim2.new(0, 150, 0, 33)
+SCROLLGUI.Font = Enum.Font.SciFi
+SCROLLGUI.FontSize = Enum.FontSize.Size28
+SCROLLGUI.Text = "Scroll Gui"
+SCROLLGUI.TextColor3 = Color3.new(0.666667, 0, 1)
+SCROLLGUI.TextSize = 25
+
+DESTRUCTION.Name = "DESTRUCTION"
+DESTRUCTION.Parent = ScrollingFrame
+DESTRUCTION.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+DESTRUCTION.Position = UDim2.new(0, 0, 0, 681)
+DESTRUCTION.Size = UDim2.new(0, 150, 0, 33)
+DESTRUCTION.Font = Enum.Font.SciFi
+DESTRUCTION.FontSize = Enum.FontSize.Size28
+DESTRUCTION.Text = "Destruction"
+DESTRUCTION.TextColor3 = Color3.new(0, 1, 1)
+DESTRUCTION.TextSize = 25
+
+NIOBIUMGUI.Name = "NIOBIUMGUI"
+NIOBIUMGUI.Parent = ScrollingFrame
+NIOBIUMGUI.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+NIOBIUMGUI.Position = UDim2.new(0, 0, 0, 715)
+NIOBIUMGUI.Size = UDim2.new(0, 150, 0, 33)
+NIOBIUMGUI.Font = Enum.Font.SciFi
+NIOBIUMGUI.FontSize = Enum.FontSize.Size28
+NIOBIUMGUI.Text = "Niobium Gui"
+NIOBIUMGUI.TextColor3 = Color3.new(0.666667, 0, 1)
+NIOBIUMGUI.TextSize = 25
+
+MEEPCITYMONEY.Name = "MEEPCITYMONEY"
+MEEPCITYMONEY.Parent = ScrollingFrame
+MEEPCITYMONEY.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+MEEPCITYMONEY.Position = UDim2.new(0, 0, 0, 748)
+MEEPCITYMONEY.Size = UDim2.new(0, 150, 0, 33)
+MEEPCITYMONEY.Font = Enum.Font.SciFi
+MEEPCITYMONEY.FontSize = Enum.FontSize.Size28
+MEEPCITYMONEY.Text = "Meep City$"
+MEEPCITYMONEY.TextColor3 = Color3.new(0, 1, 1)
+MEEPCITYMONEY.TextSize = 25
+
+SunSetCityMONEY.Name = "SunSetCityMONEY"
+SunSetCityMONEY.Parent = ScrollingFrame
+SunSetCityMONEY.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+SunSetCityMONEY.Position = UDim2.new(0, 0, 0, 781)
+SunSetCityMONEY.Size = UDim2.new(0, 150, 0, 33)
+SunSetCityMONEY.Font = Enum.Font.SciFi
+SunSetCityMONEY.FontSize = Enum.FontSize.Size28
+SunSetCityMONEY.Text = "SunSet City$"
+SunSetCityMONEY.TextColor3 = Color3.new(0.666667, 0, 1)
+SunSetCityMONEY.TextSize = 25
+
+PRISIONLIFEGUI.Name = "PRISIONLIFEGUI"
+PRISIONLIFEGUI.Parent = ScrollingFrame
+PRISIONLIFEGUI.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+PRISIONLIFEGUI.Position = UDim2.new(0, 0, 0, 815)
+PRISIONLIFEGUI.Size = UDim2.new(0, 150, 0, 33)
+PRISIONLIFEGUI.Font = Enum.Font.SciFi
+PRISIONLIFEGUI.FontSize = Enum.FontSize.Size28
+PRISIONLIFEGUI.Text = "PrisionLife Gui"
+PRISIONLIFEGUI.TextColor3 = Color3.new(0, 1, 1)
+PRISIONLIFEGUI.TextSize = 25
+
+VEHICLESIMCASH.Name = "VEHICLESIMCASH"
+VEHICLESIMCASH.Parent = ScrollingFrame
+VEHICLESIMCASH.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+VEHICLESIMCASH.Position = UDim2.new(0, 0, 0, 846)
+VEHICLESIMCASH.Size = UDim2.new(0, 150, 0, 33)
+VEHICLESIMCASH.Font = Enum.Font.SciFi
+VEHICLESIMCASH.FontSize = Enum.FontSize.Size28
+VEHICLESIMCASH.Text = "Vehicle Sim$"
+VEHICLESIMCASH.TextColor3 = Color3.new(0.666667, 0, 1)
+VEHICLESIMCASH.TextSize = 25
+
+REDWOODGUI.Name = "REDWOODGUI"
+REDWOODGUI.Parent = ScrollingFrame
+REDWOODGUI.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+REDWOODGUI.Position = UDim2.new(0, 0, 0, 879)
+REDWOODGUI.Size = UDim2.new(0, 150, 0, 33)
+REDWOODGUI.Font = Enum.Font.SciFi
+REDWOODGUI.FontSize = Enum.FontSize.Size28
+REDWOODGUI.Text = "RedWood Gui"
+REDWOODGUI.TextColor3 = Color3.new(0, 1, 1)
+REDWOODGUI.TextSize = 25
+
+ThePlazaMoney.Name = "ThePlazaMoney"
+ThePlazaMoney.Parent = ScrollingFrame
+ThePlazaMoney.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+ThePlazaMoney.Position = UDim2.new(0, 0, 0, 913)
+ThePlazaMoney.Size = UDim2.new(0, 150, 0, 33)
+ThePlazaMoney.Font = Enum.Font.SciFi
+ThePlazaMoney.FontSize = Enum.FontSize.Size28
+ThePlazaMoney.Text = "The Plaza$"
+ThePlazaMoney.TextColor3 = Color3.new(0.666667, 0, 1)
+ThePlazaMoney.TextSize = 25
+
+ResturantTycoonMoney.Name = "ResturantTycoonMoney"
+ResturantTycoonMoney.Parent = ScrollingFrame
+ResturantTycoonMoney.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+ResturantTycoonMoney.Position = UDim2.new(0, 0, 0, 947)
+ResturantTycoonMoney.Size = UDim2.new(0, 150, 0, 33)
+ResturantTycoonMoney.Font = Enum.Font.SciFi
+ResturantTycoonMoney.FontSize = Enum.FontSize.Size28
+ResturantTycoonMoney.Text = "Resturant$"
+ResturantTycoonMoney.TextColor3 = Color3.new(0, 1, 1)
+ResturantTycoonMoney.TextSize = 25
+
+MeepCityGamesPasses.Name = "MeepCityGamesPasses"
+MeepCityGamesPasses.Parent = ScrollingFrame
+MeepCityGamesPasses.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+MeepCityGamesPasses.Position = UDim2.new(0, 0, 0, 979)
+MeepCityGamesPasses.Size = UDim2.new(0, 150, 0, 33)
+MeepCityGamesPasses.Font = Enum.Font.SciFi
+MeepCityGamesPasses.FontSize = Enum.FontSize.Size28
+MeepCityGamesPasses.Text = "MeepCity GP"
+MeepCityGamesPasses.TextColor3 = Color3.new(0.666667, 0, 1)
+MeepCityGamesPasses.TextSize = 25
+
+VAPE.Name = "VAPE"
+VAPE.Parent = ScrollingFrame
+VAPE.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+VAPE.Position = UDim2.new(0, 0, 0, 1012)
+VAPE.Size = UDim2.new(0, 150, 0, 33)
+VAPE.Font = Enum.Font.SciFi
+VAPE.FontSize = Enum.FontSize.Size28
+VAPE.Text = "Vape"
+VAPE.TextColor3 = Color3.new(0, 1, 1)
+VAPE.TextSize = 25
+
+Weed.Name = "Weed"
+Weed.Parent = ScrollingFrame
+Weed.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+Weed.Position = UDim2.new(0, 0, 0, 1045)
+Weed.Size = UDim2.new(0, 150, 0, 33)
+Weed.Font = Enum.Font.SciFi
+Weed.FontSize = Enum.FontSize.Size28
+Weed.Text = "Weed"
+Weed.TextColor3 = Color3.new(0.666667, 0, 1)
+Weed.TextSize = 25
+
+VaporGun.Name = "VaporGun"
+VaporGun.Parent = ScrollingFrame
+VaporGun.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+VaporGun.Position = UDim2.new(0, 0, 0, 1078)
+VaporGun.Size = UDim2.new(0, 150, 0, 33)
+VaporGun.Font = Enum.Font.SciFi
+VaporGun.FontSize = Enum.FontSize.Size28
+VaporGun.Text = "Vapor Gun"
+VaporGun.TextColor3 = Color3.new(0, 1, 1)
+VaporGun.TextSize = 25
+
+SNIPER.Name = "SNIPER"
+SNIPER.Parent = ScrollingFrame
+SNIPER.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+SNIPER.Position = UDim2.new(0, 0, 0, 1111)
+SNIPER.Size = UDim2.new(0, 150, 0, 33)
+SNIPER.Font = Enum.Font.SciFi
+SNIPER.FontSize = Enum.FontSize.Size28
+SNIPER.Text = "Sniper"
+SNIPER.TextColor3 = Color3.new(0.666667, 0, 1)
+SNIPER.TextSize = 25
+
+ShotGun.Name = "ShotGun"
+ShotGun.Parent = ScrollingFrame
+ShotGun.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+ShotGun.Position = UDim2.new(0, 0, 0, 1144)
+ShotGun.Size = UDim2.new(0, 150, 0, 33)
+ShotGun.Font = Enum.Font.SciFi
+ShotGun.FontSize = Enum.FontSize.Size28
+ShotGun.Text = "ShotGun"
+ShotGun.TextColor3 = Color3.new(0, 1, 1)
+ShotGun.TextSize = 25
+
+DualGuns.Name = "DualGuns"
+DualGuns.Parent = ScrollingFrame
+DualGuns.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+DualGuns.Position = UDim2.new(0, 0, 0, 1177)
+DualGuns.Size = UDim2.new(0, 150, 0, 33)
+DualGuns.Font = Enum.Font.SciFi
+DualGuns.FontSize = Enum.FontSize.Size28
+DualGuns.Text = "Dual Guns"
+DualGuns.TextColor3 = Color3.new(0.666667, 0, 1)
+DualGuns.TextSize = 25
+
+SCYTHE.Name = "SCYTHE"
+SCYTHE.Parent = ScrollingFrame
+SCYTHE.BackgroundColor3 = Color3.new(0.603922, 0.603922, 0.603922)
+SCYTHE.Position = UDim2.new(0, 0, 0, 1211)
+SCYTHE.Size = UDim2.new(0, 150, 0, 33)
+SCYTHE.Font = Enum.Font.SciFi
+SCYTHE.FontSize = Enum.FontSize.Size28
+SCYTHE.Text = "Scythe"
+SCYTHE.TextColor3 = Color3.new(0, 1, 1)
+SCYTHE.TextSize = 25
+
+TextLabel.Parent = ZtraxV3
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.Position = UDim2.new(0, 1202, 0, 426)
+TextLabel.Size = UDim2.new(0, 164, 0, 13)
+TextLabel.Font = Enum.Font.Fantasy
+TextLabel.FontSize = Enum.FontSize.Size18
+TextLabel.Text = "- Made By legend3107"
+TextLabel.TextColor3 = Color3.new(0, 0, 0)
+TextLabel.TextSize = 18
+TextLabel.TextStrokeColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+TextLabel.TextStrokeTransparency = 0.80000001192093
+
+Frame.Parent = ZtraxV3
+Frame.BackgroundColor3 = Color3.new(0, 0, 0)
+Frame.BackgroundTransparency = 0.44999998807907
+Frame.BorderColor3 = Color3.new(0.666667, 0, 1)
+Frame.Position = UDim2.new(0, 1198, 0, 161)
+Frame.Size = UDim2.new(0, 168, 0, 38)
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_2.BackgroundTransparency = 1
+TextLabel_2.Size = UDim2.new(0, 168, 0, 38)
+TextLabel_2.Font = Enum.Font.Fantasy
+TextLabel_2.FontSize = Enum.FontSize.Size32
+TextLabel_2.Text = "Ztrax Gui V.4"
+TextLabel_2.TextColor3 = Color3.new(0.666667, 0, 1)
+TextLabel_2.TextSize = 30
+
+
+AngelWings.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979072009")[1].Source)()
+end)
+
+BlackCellHub.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979074106")[1].Source)()
+end)
+
+Blue.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979074448")[1].Source)()
+end)
+
+CoolGui.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979074857")[1].Source)()
+end)
+
+DESTRUCTION.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979075402")[1].Source)()
+end)
+
+DankEngine.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979075949")[1].Source)()
+end)
+
+DarkTitan.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979076397")[1].Source)()
+end)
+
+DexV2.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979076787")[1].Source)()
+end)
+
+DogeTitan.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979077312")[1].Source)()
+end)
+
+DualGuns.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979077866")[1].Source)()
+end)
+
+FilterMyA.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979078338")[1].Source)()
+end)
+
+GrabKnife3.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979078828")[1].Source)()
+end)
+
+JBGUI.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979079320")[1].Source)()
+end)
+
+MEEPCITYMONEY.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979079741")[1].Source)()
+end)
+
+MeepCityGamesPasses.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979092303")[1].Source)()
+end)
+
+MlgWings.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979092654")[1].Source)()
+end)
+
+NIOBIUMGUI.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979080313")[1].Source)()
+end)
+
+PLASMA.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979080648")[1].Source)()
+end)
+
+PRISIONLIFEGUI.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979081185")[1].Source)()
+end)
+
+REDWOODGUI.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979081539")[1].Source)()
+end)
+
+RainbowTitan.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979081905")[1].Source)()
+end)
+
+ReaperV2.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979082308")[1].Source)()
+end)
+
+ResturantTycoonMoney.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979082902")[1].Source)()
+end)
+
+SCROLLGUI.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979088990")[1].Source)()
+end)
+
+SCYTHE.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979089405")[1].Source)()
+end)
+
+SNIPER.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979166980")[1].Source)()
+end)
+
+SWORD.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979090320")[1].Source)()
+end)
+
+ShotGun.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979090955")[1].Source)()
+end)
+
+SunSetCityMONEY.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979091354")[1].Source)()
+end)
+
+ThePlazaMoney.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979091828")[1].Source)()
+end)
+
+Topk3k4.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979083565")[1].Source)()
+end)
+
+UNANCHORALL.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979084078")[1].Source)()
+end)
+
+VAPE.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979085693")[1].Source)()
+end)
+
+VEHICLESIMCASH.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979085993")[1].Source)()
+end)
+
+VaporGun.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979086349")[1].Source)()
+end)
+
+Weed.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979088012")[1].Source)()
+end)
+
+WhiteTitan.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://979088501")[1].Source)()
+end)
